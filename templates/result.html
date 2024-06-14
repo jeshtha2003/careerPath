@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Path Result</title>
+</head>
+<body>
+    <h1>Your Best Career Path</h1>
+    {% if career_path %}
+        <p>Your career path is: <strong>{{ career_path }}</strong></p>
+    {% else %}
+        <p>No career path found. Please try again.</p>
+    {% endif %}
+    <a href="/">Go back to the form</a>
+</body>
+</html>
